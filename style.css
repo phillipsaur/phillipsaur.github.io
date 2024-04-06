@@ -1,3 +1,7 @@
+.sectionflex {
+    display: flex
+}
+
 nav {
     background-color: gray;
 }
@@ -8,16 +12,15 @@ header {
 } 
 
 aside {
-    width: 20%;
-    float: left;
+    background-color: gray;
+    width: 30%;
     padding: 20px;
     box-sizing: content-box;
     text-align: center;
 }
 
 section {
-    width: 80%;
-    float: left;
+    width: 70%;
     padding: 20px;
     box-sizing: content-box;
     text-align: center;
