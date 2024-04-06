@@ -1,0 +1,15 @@
+aside {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    float: left;
+    padding: 20px;
+    box-sizing: content-box;
+    text-align: center;
+}
