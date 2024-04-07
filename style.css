@@ -46,6 +46,12 @@ section {
     width: 80%;
     box-sizing: content-box;
     text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+
+section img {
+    width: auto;
+    max-width: 50%;
 }
 
 table {
