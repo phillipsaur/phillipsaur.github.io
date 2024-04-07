@@ -7,16 +7,31 @@ header img {
 }
 
 .sectionflex {
-    height: 75vh;
     display: flex;
     justify-content: space-evenly;
 }
 
 nav {
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: center;
     background-color: gray;
+    transition: background-color 0.3s ease;
+}
+
+nav ul il a {
+    background-color: gray;
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+nav ul il a:hover {
+    background-color: bisque;
+    color: black;
 }
 
 header {
@@ -47,7 +62,7 @@ section {
     width: 80%;
     box-sizing: content-box;
     text-align: center;
-    padding: 0px 20px 0px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 section img {
