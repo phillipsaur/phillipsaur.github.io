@@ -25,6 +25,10 @@ aside {
     text-align: left;
 }
 
+aside h3 {
+    text-align: center;
+}
+
 section {
     width: 70%;
     padding: 20px;
