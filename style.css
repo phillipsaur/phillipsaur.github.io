@@ -54,6 +54,10 @@ aside {
     padding: 0px 20px 0px 20px;
 }
 
+#table1, th, td {
+    border: 1px solid;
+}
+
 aside h3 {
     text-align: center;
 }
