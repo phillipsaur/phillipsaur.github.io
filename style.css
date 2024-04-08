@@ -103,6 +103,7 @@ form {
     border-radius: 5%;
 }
 
-.relative-message {
+#relative-message {
     position: relative;
+    bottom: 10px;
 }
