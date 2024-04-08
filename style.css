@@ -19,7 +19,7 @@ nav {
     transition: background-color 0.3s ease;
 }
 
-nav ul il a {
+nav ul a {
     background-color: gray;
     color: white;
     float: left;
@@ -29,7 +29,7 @@ nav ul il a {
     text-decoration: none;
 }
 
-nav ul il a:hover {
+nav ul a:hover {
     background-color: bisque;
     color: black;
 }
