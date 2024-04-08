@@ -29,8 +29,8 @@
             </div>
             <input type="text" name="first name" placeholder="First Name" class="contact-inputs" required>
             <input type="text" name="last name" placeholder="Last Name" class="contact-inputs" required>
-            <input type="email" name="email" spellcheck="false" id="email-field" placeholder="Email" class="contact-inputs" onkeyup="validateEmail()" required>
-            <span id="email-error"></span>
+            <input type="email" name="email" spellcheck="false" id="email-field1" placeholder="Email" class="contact-inputs" required>
+            <input type="email" name="emailconfirm" spellcheck="false" id="email-field2" placeholder="Confirm Email" class="contact-inputs" onblur="validateEmail()" required>
             <textarea name="message" placeholder="Message" class="contact-inputs" required></textarea>
             <button type="submit">Submit</button>
         </form>
@@ -49,18 +49,15 @@
     </footer>
 
     <script>
-        var emailField = document.getElementById("email-field");
-        var emailError = document.getElementById("email-error");
+        function validateEmail() {
+            let emailField1 = document.getElementById("email-field1").value;
+            let emailField2 = document.getElementById("email-field2").value;
 
-        function validateEmail(){
-            if(!emailField.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
-                emailError.innerHTML = "Please enter a valid email";
+            if(emailField1 != emailField2) {
+                alert("Emails don't match. Please try again.");
                 return false;
             }
-
-            emailError.innerHTML = "";
-            return true;
-        }
+        }   
     </script>
 
 </body>
