@@ -63,7 +63,11 @@ aside h3 {
 }
 
 aside ul {
-    list-style-type: none;
+    list-style-type: disc;
+}
+
+aside ul li {
+    padding-bottom: 10px;
 }
 
 section {
