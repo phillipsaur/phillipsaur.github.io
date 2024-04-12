@@ -46,7 +46,7 @@ aside {
     text-align: left;
 }
 
-.state-stats {
+.state-stats, .socials {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
