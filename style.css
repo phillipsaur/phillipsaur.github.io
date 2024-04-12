@@ -62,6 +62,10 @@ aside h3 {
     text-align: center;
 }
 
+aside ul {
+    list-style-type: none;
+}
+
 section {
     width: 80%;
     box-sizing: content-box;
