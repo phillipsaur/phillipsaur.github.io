@@ -11,7 +11,7 @@ header img {
     justify-content: space-evenly;
 }
 
-nav {
+nav, footer nav {
     height: auto;
     display: flex;
     justify-content: center;
